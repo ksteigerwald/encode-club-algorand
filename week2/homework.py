@@ -39,6 +39,5 @@ except Exception as err:
   print(err)
   
   
-  print("Transaction Info: {}".format(
-    json.dumps(confirmed_txn, indent=4)
-  ))
+print("Transaction Info: {}".format(
+  json.dumps(confirmed_txn, indent=4)))
